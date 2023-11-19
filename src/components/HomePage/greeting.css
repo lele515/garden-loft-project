@@ -1,0 +1,10 @@
+#greeting-container {
+  background-color: rgb(199, 199, 199);
+  border-radius: 2rem;
+  padding: 25px;
+  width: 90%;
+}
+
+.greeting-change {
+  padding: 20px;
+}

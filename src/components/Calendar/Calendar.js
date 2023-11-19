@@ -3,7 +3,7 @@ import './calendar.css'
 
 const Calendar = () => {
   return (
-    <div>Calendar</div>
+    <section id="calendar">Calendar</section>
   )
 }
 

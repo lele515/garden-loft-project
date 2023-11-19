@@ -15,8 +15,13 @@ code {
 }
 
 :root {
+padding: 10px;
+  background-color: rgb(55, 53, 53);
+  color:azure;
   --color-bg: #fffdfd;
   --color-bg-variant: #888888b5;
   --color-primary: #a7c2de;
   --color-primary-variant: rgba(26, 76, 112, 0.653);
+  --color-white: #ffffff;
+    --color-light: rgba(229, 219, 219, 0.6);
 }

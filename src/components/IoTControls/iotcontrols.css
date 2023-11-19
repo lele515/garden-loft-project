@@ -1,0 +1,29 @@
+#iotControls {
+    background-color: rgb(91, 76, 58);
+    padding: 200px;
+  }
+.about__content {
+  margin: 2rem 4rem 4rem 300px;
+  /* color: var(--color-light); */
+}
+
+.about__cards {
+  display:grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.about__card {
+  background: var(--color-primary-variant);
+  border: 1px solid transparent;
+  border-radius: 3rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.about__card:hover {
+  background: var(--color-bg-variant);
+  border-color: var(--color-bg-variant);
+  cursor: default;
+}

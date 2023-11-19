@@ -1,0 +1,17 @@
+#homepage {
+  background-color: rgb(44, 44, 44);
+  padding: 30px;
+  margin-left: 240px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.gallery-greeting {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
