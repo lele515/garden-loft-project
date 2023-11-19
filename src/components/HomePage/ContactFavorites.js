@@ -15,7 +15,7 @@ const ContactFavorites = () => {
           <FaceIcon style={iconStyle}/>
         </div>
         <div className="contact-info">
-          <h1>Myles</h1>
+          <h1>Chitra</h1>
           <h3>403-123-4567</h3>
         </div>
       </div>
@@ -24,7 +24,7 @@ const ContactFavorites = () => {
           <FaceIcon style={iconStyle}/>
         </div>
         <div className="contact-info">
-          <h1>Myles</h1>
+          <h1>Lema</h1>
           <h3>403-123-4567</h3>
         </div>
       </div>
@@ -33,7 +33,7 @@ const ContactFavorites = () => {
           <FaceIcon style={iconStyle}/>
         </div>
         <div className="contact-info">
-          <h1>Myles</h1>
+          <h1>Jocelyn</h1>
           <h3>403-123-4567</h3>
         </div>
       </div>
@@ -42,7 +42,7 @@ const ContactFavorites = () => {
           <FaceIcon style={iconStyle}/>
         </div>
         <div className="contact-info">
-          <h1>Myles</h1>
+          <h1>Meseret</h1>
           <h3>403-123-4567</h3>
         </div>
       </div>
@@ -51,7 +51,7 @@ const ContactFavorites = () => {
           <FaceIcon style={iconStyle}/>
         </div>
         <div className="contact-info">
-          <h1>Myles</h1>
+          <h1>Sally</h1>
           <h3>403-123-4567</h3>
         </div>
       </div>
