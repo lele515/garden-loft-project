@@ -9,7 +9,7 @@ const Greeting = () => {
   return (
     <section id="greeting-container">
       <div className="greeting-change">
-        <h1>Good Morning</h1>
+        <h1>Good Morning <br />24 &deg; Sunny</h1>
         <LightModeIcon style={iconStyle}/>
       </div>
     </section>

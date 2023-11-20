@@ -12,11 +12,11 @@
   align-content: center;
   align-items: center;
   gap: 1rem;
-  width: 70%;
   text-align: left;
   font-size: 15px;
   background-color: rgb(47, 102, 109);
   margin: 1rem;
   border-radius: 1rem;
   padding: 20px 30px 20px 30px;
+  height: 13%
 }
