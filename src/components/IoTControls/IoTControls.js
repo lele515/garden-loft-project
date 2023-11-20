@@ -2,6 +2,8 @@ import React from "react";
 import "./iotcontrols.css";
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import ThermostatIcon from '@mui/icons-material/Thermostat';
+import HttpsIcon from '@mui/icons-material/Https';
+import DevicesOtherIcon from '@mui/icons-material/DevicesOther';
 
 const IoTControls = () => {
   const iconStyle = {
@@ -19,11 +21,11 @@ const IoTControls = () => {
           <h5>Temperature</h5>
         </article>
         <article className="control__card">
-          {/* <FiUser className='about__icon'/> */}
+          <HttpsIcon style={iconStyle}/>
           <h5>Lock</h5>
         </article>
         <article className="control__card">
-          {/* <VscFolderLibrary className='about__icon'/> */}
+          <DevicesOtherIcon style={iconStyle}/>
           <h5>Other</h5>
         </article>
       </div>
