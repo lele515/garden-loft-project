@@ -1,28 +1,37 @@
 #iotControls {
-    background-color: rgb(91, 76, 58);
-    padding: 200px;
+    background-color: rgb(225, 221, 216);
+    padding: 50px;
+    margin-left: 240px;
+    border-radius: 30px;
+    display: flex;
+    height: 100vh;
+
   }
-.about__content {
-  margin: 2rem 4rem 4rem 300px;
-  /* color: var(--color-light); */
+
+.iotControls-main {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  background-color:rgb(74, 175, 175);
+  padding: 20px;
+  height: 86vh;
 }
 
-.about__cards {
-  display:grid;
-  grid-template-rows: repeat(4, 1fr);
-  gap: 1.5rem;
-}
 
-.about__card {
+.control__card {
   background: var(--color-primary-variant);
   border: 1px solid transparent;
-  border-radius: 3rem;
-  padding: 2rem;
+  border-radius: 6rem;
+  padding: 1rem;
   text-align: center;
   transition: var(--transition);
+  width: 15vw;
+  font-size: 30px;
+  line-height: 0;
 }
 
-.about__card:hover {
+.control__card:hover {
   background: var(--color-bg-variant);
   border-color: var(--color-bg-variant);
   cursor: default;
