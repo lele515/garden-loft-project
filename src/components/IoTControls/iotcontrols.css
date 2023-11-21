@@ -10,12 +10,13 @@
 
 .iotControls-main {
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   gap: 2rem;
   background-color:rgb(74, 175, 175);
   padding: 20px;
-  height: 86vh;
+  height: 20vh;
+  width: 100vw;
   border-radius: 1rem;;
 }
 

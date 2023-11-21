@@ -13,8 +13,8 @@ function App() {
     <div className="App">
       <Nav />
       <HomePage/>
-      <Contacts/>
       <IoTControls/>
+      <Contacts/>
       <Calendar/>
       <Entertainment/>
       <Settings/>

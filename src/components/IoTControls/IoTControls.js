@@ -1,9 +1,12 @@
 import React from "react";
 import "./iotcontrols.css";
+import Lock from "./Lock/Lock.js";
 import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import ThermostatIcon from '@mui/icons-material/Thermostat';
 import HttpsIcon from '@mui/icons-material/Https';
 import DevicesOtherIcon from '@mui/icons-material/DevicesOther';
+import { Link } from 'react-router-dom';
+
 
 const IoTControls = () => {
   const iconStyle = {

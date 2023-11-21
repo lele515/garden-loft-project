@@ -21,6 +21,10 @@ const [activeNav, setActiveNav] = useState('#homepage')
         <CabinIcon style={iconStyle}/>
         <h1>Home</h1>
       </a>
+      <a href="#iotControls" onClick={() => setActiveNav('#iotControls')} className={activeNav === '#iotControls' ? 'active' : ''}>
+        <BroadcastOnHomeIcon style={iconStyle}/>
+        <h1>Home Controls</h1>
+      </a>
       <a href="#contacts" onClick={() => setActiveNav('#contacts')} className={activeNav === '#contacts' ? 'active' : ''}>
         <PermContactCalendarIcon style={iconStyle} />
         <h1>Contacts</h1>
@@ -28,10 +32,6 @@ const [activeNav, setActiveNav] = useState('#homepage')
       <a href="#calendar" onClick={() => setActiveNav('#calendar')} className={activeNav === '#calendar' ? 'active' : ''}>
         <CalendarMonthIcon style={iconStyle}/>
         <h1>Calendar</h1>
-      </a>
-      <a href="#iotControls" onClick={() => setActiveNav('#iotControls')} className={activeNav === '#iotControls' ? 'active' : ''}>
-        <BroadcastOnHomeIcon style={iconStyle}/>
-        <h1>Home Controls</h1>
       </a>
       <a href="#entertainment" onClick={() => setActiveNav('#entertainment')} className={activeNav === '#entertainment' ? 'active' : ''}>
         <LiveTvIcon style={iconStyle}/>
