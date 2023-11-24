@@ -2,10 +2,12 @@
     background-color: rgb(225, 221, 216);
     padding: 50px;
     margin-left: 240px;
+    margin-bottom: 20px;
     border-radius: 30px;
     display: flex;
-    height: 100vh;
-
+    flex-direction: column;
+    width: 80vw;
+    height: 91vh;
   }
 
 .iotControls-main {
@@ -13,19 +15,19 @@
   flex-direction: row;
   justify-content: center;
   gap: 2rem;
-  background-color:rgb(74, 175, 175);
+  background-color:rgb(173, 173, 173);
   padding: 20px;
   height: 20vh;
-  width: 100vw;
-  border-radius: 1rem;;
+
+  border-radius: 1rem;
 }
 
 
 .control__card {
-  background: var(--color-primary-variant);
+  background: var(--color-primary);
   border: 1px solid transparent;
   border-radius: 6rem;
-  padding: 1.5rem 1rem;
+  padding: 2rem 1rem;
   text-align: center;
   transition: var(--transition);
   width: 15vw;
@@ -36,5 +38,47 @@
 .control__card:hover {
   background: var(--color-bg-variant);
   border-color: var(--color-bg-variant);
+  color: black;
   cursor: default;
+}
+
+.light-content {
+  font-size: 40px;
+  background-color: rgba(116, 173, 227, 0.551);
+  border-radius: 8rem;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap:2rem;
+  justify-content: flex-start;
+  width: 75vw;
+  padding: 50px;
+  
+}
+
+.device {
+  background-color: rgb(228, 228, 230);
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 0 2rem;
+  color: black;
+  /* width: 80vw; */
+}
+
+
+
+.lock-content {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: rgb(103, 169, 5);
+  width: 20vw;
+  border-radius: 60px;
+  align-items: center;
+  height: 10vh;
+  justify-content: center;
 }

@@ -7,9 +7,11 @@ import Gallery from "./Gallery";
 const HomePage = () => {
   return (
     <section id="homepage">
-      <ContactFavorites />
+      <Greeting />
+      
       <div className="gallery-greeting">
-        <Greeting />
+        <ContactFavorites />
+      
         <Gallery />
       </div>
     </section>

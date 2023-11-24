@@ -3,7 +3,7 @@ import './settings.css'
 
 const Settings = () => {
   return (
-    <section id="settings">Settings</section>
+    <div id="settings">Settings</div>
   )
 }
 

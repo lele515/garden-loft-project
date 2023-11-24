@@ -1,18 +1,19 @@
 #homepage {
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(82, 82, 82);
   padding: 50px;
   margin-left: 240px;
   border-radius: 20px;
   margin-bottom: 20px;
   margin-top: 10px;
-  display: flex;
-  flex-direction: row;
   gap: 4rem;
+  width: 80vw;
+  
 }
 
 .gallery-greeting {
+  margin-top: 2rem;
   display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  height: 100vh;
+  flex-direction: row;
+  gap: 3rem;
+  width: 84vw;
 }

@@ -1,10 +1,15 @@
-import React from 'react'
+
 import './entertainment.css'
 
 const Entertainment = () => {
+
   return (
-    <section id="entertainment">Entertainment</section>
-  )
+      <div id="entertainment">
+         <h1>Light</h1>
+      </div>
+  );
 }
 
+
 export default Entertainment
+

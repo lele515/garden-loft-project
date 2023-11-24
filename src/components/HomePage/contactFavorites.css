@@ -1,9 +1,9 @@
 #contact-favorite-container {
-  background-color: rgb(199, 199, 199);
   border-radius: 3rem;
-  padding: 25px;
   width: 30%;
-  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 
 }
 
@@ -15,9 +15,28 @@
   gap: 1rem;
   text-align: left;
   font-size: 15px;
-  background-color: rgb(47, 102, 109);
-  margin: 1rem;
+  background-color: rgb(140, 222, 233);
+  border-radius: 1rem;
+  height: 20vh;
+  padding: 20px 30px 20px 30px;
+  box-shadow: 14px 16px 15px 5px #062026
+
+}
+
+.contact-info {
+  color:rgb(34, 39, 49);
+}
+
+.contact-help {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+  font-size: 15px;
+  background-color: rgb(244, 149, 118);
   border-radius: 1rem;
   padding: 20px 30px 20px 30px;
-  height: 13%
+  box-shadow: 14px 16px 15px 5px #062026
 }

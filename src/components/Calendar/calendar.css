@@ -1,4 +1,11 @@
 #calendar {
-  background-color: rgb(109, 109, 109);
-  padding: 200px;
+  background-color: rgb(82, 82, 82);
+  padding: 50px;
+    margin-left: 240px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    display: flex;
+    height: 100vh;
+    width: 80vw;
+    height: 91vh;
 }

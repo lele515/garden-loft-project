@@ -25,17 +25,17 @@ const [activeNav, setActiveNav] = useState('#homepage')
         <BroadcastOnHomeIcon style={iconStyle}/>
         <h1>Home Controls</h1>
       </a>
-      <a href="#contacts" onClick={() => setActiveNav('#contacts')} className={activeNav === '#contacts' ? 'active' : ''}>
-        <PermContactCalendarIcon style={iconStyle} />
-        <h1>Contacts</h1>
+      <a href="#entertainment" onClick={() => setActiveNav('#entertainment')} className={activeNav === '#entertainment' ? 'active' : ''}>
+        <LiveTvIcon style={iconStyle}/>
+        <h1>Entertainment</h1>
       </a>
       <a href="#calendar" onClick={() => setActiveNav('#calendar')} className={activeNav === '#calendar' ? 'active' : ''}>
         <CalendarMonthIcon style={iconStyle}/>
         <h1>Calendar</h1>
       </a>
-      <a href="#entertainment" onClick={() => setActiveNav('#entertainment')} className={activeNav === '#entertainment' ? 'active' : ''}>
-        <LiveTvIcon style={iconStyle}/>
-        <h1>Entertainment</h1>
+      <a href="#contacts" onClick={() => setActiveNav('#contacts')} className={activeNav === '#contacts' ? 'active' : ''}>
+        <PermContactCalendarIcon style={iconStyle} />
+        <h1>Contacts</h1>
       </a>
       <a href="#settings" onClick={() => setActiveNav('settings')} className={activeNav === '#settings' ? 'active' : ''}>
         <SettingsIcon style={iconStyle}/>
