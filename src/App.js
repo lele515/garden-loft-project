@@ -13,13 +13,13 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <HomePage/> 
-      <IoTControls/>
+      <HomePage /> 
+      <IoTControls />
       <Lights />
-      <Entertainment/>
-      <Calendar/>
-      <Contacts/>
-      <Settings/>
+      <Entertainment />
+      <Calendar />
+      <Contacts />
+      <Settings /> 
     </div>
   );
 }
