@@ -1,10 +1,16 @@
 #homepage {
   background-color: rgb(82, 82, 82);
   padding: 50px;
-  margin-left: 240px;
+  margin-left: 20px;
   border-radius: 20px;
   margin-bottom: 20px;
+<<<<<<< HEAD
   margin-top: 10px;
+=======
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+>>>>>>> e9eb043 (changing layout)
   gap: 4rem;
   width: 80vw;
   

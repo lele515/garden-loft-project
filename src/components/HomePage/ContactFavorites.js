@@ -26,8 +26,31 @@ const ContactFavorites = () => {
           <LocalHospitalIcon style={iconStyle}/>
         </div>
         <div className="contact-info">
+<<<<<<< HEAD
           <h1>Call Help</h1>
   
+=======
+          <h1>Lema</h1>
+          <h3>403-123-4567</h3>
+        </div>
+      </div>
+      <div className="contact-fav-card">
+        <div className="contact-image">
+          <FaceIcon style={iconStyle}/>
+        </div>
+        <div className="contact-info">
+          <h1>Meseret</h1>
+          <h3>403-123-4567</h3>
+        </div>
+      </div>
+      <div className="contact-fav-card">
+        <div className="contact-image">
+          <FaceIcon style={iconStyle}/>
+        </div>
+        <div className="contact-info">
+          <h1>Sally</h1>
+          <h3>403-123-4567</h3>
+>>>>>>> e9eb043 (changing layout)
         </div>
       </div>
       

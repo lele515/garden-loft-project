@@ -5,6 +5,7 @@ import BroadcastOnHomeIcon from '@mui/icons-material/BroadcastOnHome';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
 import SettingsIcon from '@mui/icons-material/Settings';
 import { useState } from "react";
+<<<<<<< HEAD
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import IoTControls from "../IoTControls/IoTControls";
 import Entertainment from "../Entertainment/Entertainment";
@@ -59,6 +60,45 @@ const Nav = () => {
         <Route path='/homepage' element={<HomePage />}></Route>
       </Routes>
   </Router>
+=======
+import {Link} from 'react-router-dom';
+
+const Nav = () => {
+const iconStyle = {
+  fontSize:'50px'
+}
+
+const [activeNav, setActiveNav] = useState('#homepage')
+
+  return (
+    <nav className="navbar-container">
+      <Link to="/homepage" onClick={() => setActiveNav('#homepage')} className={activeNav === '#homepage' ? 'active' : ''}>
+        <CalendarMonthIcon style={iconStyle}/>
+        <h1>Live Activities</h1>
+      </Link>
+      <a href="#iotControls" onClick={() => setActiveNav('#iotControls')} className={activeNav === '#iotControls' ? 'active' : ''}>
+        <BroadcastOnHomeIcon style={iconStyle}/>
+        <h1>Change Light?</h1>
+      </a>
+      <Link to="/contact" onClick={() => setActiveNav('#contacts')} className={activeNav === '#contacts' ? 'active' : ''}>
+        <PermContactCalendarIcon style={iconStyle} />
+        <h1>Make A Call?</h1>
+      </Link>
+      <a href="#calendar" onClick={() => setActiveNav('#calendar')} className={activeNav === '#calendar' ? 'active' : ''}>
+        <CabinIcon style={iconStyle}/>
+        <h1>Home</h1>
+      </a>
+      <a href="#entertainment" onClick={() => setActiveNav('#entertainment')} className={activeNav === '#entertainment' ? 'active' : ''}>
+        <LiveTvIcon style={iconStyle}/>
+        <h1>Watch TV?</h1>
+      </a>
+      <a href="#settings" onClick={() => setActiveNav('settings')} className={activeNav === '#settings' ? 'active' : ''}>
+        <SettingsIcon style={iconStyle}/>
+        <h1>Settings</h1>
+      </a>
+    
+    </nav>
+>>>>>>> e9eb043 (changing layout)
   );
   };
   

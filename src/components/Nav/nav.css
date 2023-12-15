@@ -1,13 +1,24 @@
 nav {
+<<<<<<< HEAD
   background: rgba(247, 247, 247, 0.843);
   width: max-content;
+=======
+  background: rgb(250, 255, 222);
+  width: 96%;
+>>>>>>> e9eb043 (changing layout)
   display:flex;
-  flex-direction: column;
-  padding: 0.7rem 1.7rem;
+  flex-direction: row;
+  padding: 2rem 1.7rem;
+  justify-content: space-around;
   z-index: 2;
   position: fixed;
+<<<<<<< HEAD
   left: 10px;
   top: 5%;
+=======
+  /* left: 10px;
+  top: 2%; */
+>>>>>>> e9eb043 (changing layout)
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
@@ -19,12 +30,16 @@ nav {
 nav a {
   background: transparent;
   padding: 0.9rem;
+<<<<<<< HEAD
   border-radius: 30%;
+=======
+  border-radius: 10%;
+>>>>>>> e9eb043 (changing layout)
   display: flex;
   flex-direction: column;
   align-items: center;
   text-decoration: none;;
-  color: var(--color-bg);
+  color: rgb(62, 62, 62);
   font-size: 0.8rem;
 }
 

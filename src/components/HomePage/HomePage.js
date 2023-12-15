@@ -1,7 +1,6 @@
 import React from "react";
 import "./homepage.css";
 import ContactFavorites from "./ContactFavorites";
-import Greeting from "./Greeting";
 import Gallery from "./Gallery";
 
 const HomePage = () => {
@@ -10,8 +9,12 @@ const HomePage = () => {
       <Greeting />
       
       <div className="gallery-greeting">
+<<<<<<< HEAD
         <ContactFavorites />
       
+=======
+  
+>>>>>>> e9eb043 (changing layout)
         <Gallery />
       </div>
     </section>
